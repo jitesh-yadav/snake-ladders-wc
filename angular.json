@@ -19,19 +19,18 @@
           "options": {
             "outputPath": "dist/pi-wc",
             "index": "src/index.html",
-            "main": "src/main.ts",
+            "main": "src/app/save-pi/save-pi.main.ts",
             "polyfills": [
-              "zone.js"
+              "zone.js",
+              "src/polyfills.ts"
             ],
-            "tsConfig": "tsconfig.app.json",
+            "tsConfig": "src/app/save-pi/tsconfig.save-pi.json",
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "styles": [],
             "scripts": []
           },
           "configurations": {

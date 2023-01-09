@@ -1,0 +1,21 @@
+<h1>π game</h1>
+<div class="instruction">
+  <div class="keys"><kbd>&#8593;</kbd><kbd>&#8592;</kbd><kbd>&#8595;</kbd><kbd>&#8594;</kbd></div>
+  <div class="text">Use the arrow keys to move the π.<br/>Remain undetected for as long as possible.</div>
+</div>
+<div class="game">
+  <canvas></canvas>
+  <button id="start">START</button>
+</div>
+<dialog id="dialog">
+  <div class="inner">
+    <div>
+      <h2>Game Over</h2>
+      <p>Your score:</p><span class="score" id="score"></span><span class="highscore">New Highscore!</span>
+    </div>
+    <button id="reset">PLAY AGAIN</button>
+  </div>
+</dialog>
+<label class="mute">
+  <input id="mute" type="checkbox"/><i class="fa-solid fa-volume-high"></i><i class="fa-solid fa-volume-xmark"></i>
+</label>
