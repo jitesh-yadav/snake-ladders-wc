@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pi-wc": {
+    "snake-ladders-wc": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,14 +17,14 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/pi-wc",
+            "outputPath": "dist/snake-ladders-wc",
             "index": "src/index.html",
-            "main": "src/app/save-pi/save-pi.main.ts",
+            "main": "src/app/snake-ladders/snake-ladders.main.ts",
             "polyfills": [
               "zone.js",
               "src/polyfills.ts"
             ],
-            "tsConfig": "src/app/save-pi/tsconfig.save-pi.json",
+            "tsConfig": "src/app/snake-ladders/tsconfig.snake-ladders.json",
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "pi-wc:build:production"
+              "browserTarget": "snake-ladders-wc:build:production"
             },
             "development": {
-              "browserTarget": "pi-wc:build:development"
+              "browserTarget": "snake-ladders-wc:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pi-wc:build"
+            "browserTarget": "snake-ladders-wc:build"
           }
         },
         "test": {

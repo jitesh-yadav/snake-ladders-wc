@@ -1,10 +1,10 @@
 {
-  "name": "pi-wc",
+  "name": "snake-ladders-wc",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build pi-wc --output-hashing none && node concat.js",
+    "build": "ng build snake-ladders-wc --output-hashing none && node concat.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -20,6 +20,7 @@
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
     "@webcomponents/custom-elements": "1.5.1",
+    "gsap": "^3.11.4",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"

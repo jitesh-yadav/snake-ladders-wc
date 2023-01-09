@@ -3,11 +3,11 @@ const concat = require('concat');
 
 (async function build() {
   const files = [
-    './dist/pi-wc/runtime.js',
-    './dist/pi-wc/polyfills.js',
-    './dist/pi-wc/main.js'
+    './dist/snake-ladders-wc/runtime.js',
+    './dist/snake-ladders-wc/polyfills.js',
+    './dist/snake-ladders-wc/main.js'
   ];
 
   await fs.ensureDir('publish');
-  await concat(files, 'publish/pi-wc.js');
+  await concat(files, 'publish/snake-ladders-wc.js');
 })();

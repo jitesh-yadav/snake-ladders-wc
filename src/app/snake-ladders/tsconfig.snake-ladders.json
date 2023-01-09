@@ -5,7 +5,7 @@
         "types": []
     },
     "files": [
-        "./save-pi.main.ts",
+        "./snake-ladders.main.ts",
         "../../polyfills.ts"
     ],
     "include": [
